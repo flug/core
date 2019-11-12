@@ -117,3 +117,5 @@ parameters:
 		-
 			message: '#Call to method get(Class|Headers|StatusCode)\(\) on an unknown class Symfony\\Component\\ErrorRenderer\\Exception\\FlattenException\.#'
 			path: %currentWorkingDirectory%/src/Action/ExceptionAction.php
+
+		- '#Symfony\\Component\\HttpKernel\\EventListener\\ErrorListener#'
