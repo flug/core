@@ -13,6 +13,10 @@
 * OpenAPI: Add PHP default values to the documentation (#2386)
 * Deprecate using a validation groups generator service not implementing `ApiPlatform\Core\Bridge\Symfony\Validator\ValidationGroupsGeneratorInterface` (#3346)
 
+## 2.5.x-dev
+
+* JSON Schema: Missing LD context from Data Transformers #3479
+
 ## 2.5.5
 
 * Filter: Improve the RangeFilter query in case the values are equals using the between operator #3488
