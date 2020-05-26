@@ -106,7 +106,7 @@ class TypeConverterTest extends TestCase
         $this->expectException(\UnexpectedValueException::class);
         $this->expectExceptionMessage('A "Node" resource cannot be used with GraphQL because the type is already used by the Relay specification.');
 
-        $this->typeConverter->convertType($type, false, null, null, 'resourceClass', 'rootClass', null, 0);
+        $this->typeConverter->convertType($type, false, null, null, 'resourceClass', 'rootClass', null, null, 0);
     }
 
     public function testConvertTypeResourceClassNotFound(): void
